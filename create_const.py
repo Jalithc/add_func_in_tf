@@ -3,6 +3,7 @@ import tensorflow as tf
 a = tf.constant([2], name = 'constant_a')
 b = tf.constant([3], name = 'constant_b')
 
+#create a function
 @tf.function
 def add(a,b):
     c = tf.add(a, b)
